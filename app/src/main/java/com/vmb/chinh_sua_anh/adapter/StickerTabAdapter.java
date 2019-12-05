@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.adapter.holder.StickerTabHolder;
 import com.vmb.chinh_sua_anh.base.adapter.BaseAdapter;
 import com.vmb.chinh_sua_anh.base.adapter.holder.BaseViewHolder;

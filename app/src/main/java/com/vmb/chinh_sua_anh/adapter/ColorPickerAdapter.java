@@ -14,7 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.util.OnTouchClickListener;
 
 import java.util.ArrayList;

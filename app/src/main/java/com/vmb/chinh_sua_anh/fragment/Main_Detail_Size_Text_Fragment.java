@@ -4,7 +4,7 @@ import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.base.fragment.BaseFragment;
 import com.vmb.chinh_sua_anh.handler.PhotoHandler;
 import com.vmb.chinh_sua_anh.handler.TextOnPhotoHandler;

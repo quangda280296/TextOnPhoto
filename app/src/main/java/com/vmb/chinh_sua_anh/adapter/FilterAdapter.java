@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.makeramen.roundedimageview.RoundedImageView;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.Interface.IFilterListener;
 
 import java.io.IOException;

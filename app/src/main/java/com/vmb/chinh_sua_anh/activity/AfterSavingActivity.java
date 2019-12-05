@@ -12,7 +12,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.facebook.CallbackManager;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.Interface.BannerLoaderListener;
 import com.vmb.ads_in_app.LibrayData;
 import com.vmb.ads_in_app.handler.AdsHandler;

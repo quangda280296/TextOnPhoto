@@ -3,7 +3,7 @@ package com.vmb.chinh_sua_anh.adapter.holder;
 import android.view.View;
 import android.widget.TextView;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.base.adapter.holder.BaseViewHolder;
 
 public class FontHolder extends BaseViewHolder {

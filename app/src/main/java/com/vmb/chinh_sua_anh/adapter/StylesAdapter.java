@@ -5,7 +5,7 @@ import android.support.v7.widget.RecyclerView.Adapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.util.OnTouchClickListener;
 import com.vmb.chinh_sua_anh.Interface.IOnStylesClickListener;
 import com.vmb.chinh_sua_anh.model.Styles;

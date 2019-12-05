@@ -18,7 +18,7 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.util.OnTouchClickListener;
 import com.vmb.chinh_sua_anh.Config;
 import com.vmb.chinh_sua_anh.activity.DetailPhotoActivity;

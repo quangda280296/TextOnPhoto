@@ -5,22 +5,23 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 
-import jack.com.servicekeep.act.BaseVMAppCompatActivity;
-
-public abstract class BaseActivity extends BaseVMAppCompatActivity implements View.OnClickListener {
+public abstract class BaseActivity extends AppCompatActivity implements View.OnClickListener {
 
     protected abstract int getResLayout();
+
     protected abstract void initView();
+
     protected abstract void initData();
 
     protected abstract void onActivity_Result(int requestCode, int resultCode, Intent data);
+
     protected abstract void onRequestPermissions_Result(int requestCode, String[] permissions, int[] grantResults);
 
     @Override

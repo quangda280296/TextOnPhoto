@@ -18,7 +18,7 @@ import android.view.View;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.handler.AdsHandler;
 import com.vmb.ads_in_app.util.OnTouchClickListener;
 import com.vmb.ads_in_app.util.ToastUtil;

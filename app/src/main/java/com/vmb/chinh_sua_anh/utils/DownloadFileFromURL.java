@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.daimajia.numberprogressbar.NumberProgressBar;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.util.ToastUtil;
 import com.vmb.chinh_sua_anh.Interface.IOnGetFont;
 

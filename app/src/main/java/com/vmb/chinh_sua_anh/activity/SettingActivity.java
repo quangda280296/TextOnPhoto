@@ -12,7 +12,7 @@ import com.vmb.chinh_sua_anh.Config;
 import com.vmb.ads_in_app.Interface.IOnSendFeedback;
 import com.vmb.chinh_sua_anh.base.BaseActivity;
 import com.vmb.ads_in_app.util.ShareRateUtil;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 
 public class SettingActivity extends BaseActivity implements IOnSendFeedback {
     private View img_back;

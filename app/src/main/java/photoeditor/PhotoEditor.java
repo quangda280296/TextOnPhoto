@@ -30,7 +30,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.Config;
 import com.vmb.chinh_sua_anh.activity.TextInputActivity;
 import com.vmb.chinh_sua_anh.fragment.Main_Bottom_Modify_Text_Fragment;

@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.google.gson.Gson;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.Interface.BannerLoaderListener;
 import com.vmb.ads_in_app.LibrayData;
 import com.vmb.ads_in_app.handler.AdsHandler;

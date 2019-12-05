@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.adapter.holder.ChooseImage_TitleViewHolder;
 import com.vmb.chinh_sua_anh.base.adapter.BaseAdapter;
 import com.vmb.chinh_sua_anh.base.adapter.holder.BaseViewHolder;

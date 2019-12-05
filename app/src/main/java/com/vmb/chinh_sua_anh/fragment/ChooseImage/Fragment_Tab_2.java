@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.google.gson.Gson;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.LibrayData;
 import com.vmb.ads_in_app.handler.AdsHandler;
 import com.vmb.ads_in_app.util.NetworkUtil;

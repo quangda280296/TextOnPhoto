@@ -18,7 +18,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.util.OnTouchClickListener;
 import com.vmb.chinh_sua_anh.Interface.IOnStylesClickListener;
 import com.vmb.chinh_sua_anh.adapter.StylesAdapter;

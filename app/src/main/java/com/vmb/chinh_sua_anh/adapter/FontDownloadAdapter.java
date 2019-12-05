@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.Interface.IRewardedListener;
 import com.vmb.ads_in_app.handler.AdsHandler;
 import com.vmb.ads_in_app.util.NetworkUtil;

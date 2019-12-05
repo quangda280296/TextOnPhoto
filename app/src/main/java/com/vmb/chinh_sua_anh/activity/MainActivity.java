@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.handler.AdsHandler;
 import com.vmb.ads_in_app.util.FireAnaUtil;
 import com.vmb.ads_in_app.util.OnTouchClickListener;

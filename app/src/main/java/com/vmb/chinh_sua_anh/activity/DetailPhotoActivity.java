@@ -21,7 +21,7 @@ import android.widget.ImageView;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.handler.AdsHandler;
 import com.vmb.ads_in_app.util.OnTouchClickListener;
 import com.vmb.ads_in_app.util.PermissionUtil;

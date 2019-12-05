@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import android.util.Pair;
 import android.view.View;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.handler.TextOnPhotoHandler;
 import com.vmb.chinh_sua_anh.model.TextOnPhoto;
 

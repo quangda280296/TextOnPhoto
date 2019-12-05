@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.Config;
 import com.vmb.chinh_sua_anh.activity.TextInputActivity;
 import com.vmb.chinh_sua_anh.base.fragment.BaseFragment;

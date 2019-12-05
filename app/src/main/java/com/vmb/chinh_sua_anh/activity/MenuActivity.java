@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 import com.facebook.CallbackManager;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.ads_in_app.GetConfig;
 import com.vmb.ads_in_app.Interface.IUpdateNewVersion;
 import com.vmb.ads_in_app.LibrayData;
@@ -39,19 +39,20 @@ public class MenuActivity extends BaseActivity implements IUpdateNewVersion {
 
     private View root;
     private CallbackManager callbackManager;
-    private View layout_dialog;
+    //private View layout_dialog;
 
-    private ImageView img_close;
+    //private ImageView img_close;
     private ImageView img_text_on_photo;
     private ImageView img_gallery;
     private ImageView img_more_apps;
     private ImageView img_setup;
 
-    private TextView lbl_title;
+    /*private TextView lbl_title;
     private TextView lbl_content;
-    private Button btn_ok;
+    private Button btn_ok;*/
 
-    private boolean require_update = false;
+    //private boolean require_update = false;
+    private int count = 0;
 
     @Override
     protected int getResLayout() {
@@ -64,14 +65,14 @@ public class MenuActivity extends BaseActivity implements IUpdateNewVersion {
                 Config.CODE_CONTROL_APP, Config.VERSION_APP, Config.PACKAGE_NAME);
 
         root = findViewById(R.id.root);
-        layout_dialog = findViewById(R.id.layout_dialog);
+        /*layout_dialog = findViewById(R.id.layout_dialog);
 
         lbl_title = findViewById(R.id.lbl_title);
         lbl_content = findViewById(R.id.lbl_content);
 
         btn_ok = findViewById(R.id.btn_ok);
 
-        img_close = findViewById(R.id.img_close);
+        img_close = findViewById(R.id.img_close);*/
 
         img_text_on_photo = findViewById(R.id.img_text_on_photo);
         img_gallery = findViewById(R.id.img_gallery);
@@ -180,6 +181,7 @@ public class MenuActivity extends BaseActivity implements IUpdateNewVersion {
 
     @Override
     public void onClick(View v) {
+        count = 0;
         switch (v.getId()) {
             case R.id.img_text_on_photo:
                 new Handler().postDelayed(new Runnable() {
@@ -212,18 +214,18 @@ public class MenuActivity extends BaseActivity implements IUpdateNewVersion {
             case R.id.img_setup:
                 startActivity(new Intent(MenuActivity.this, SettingActivity.class));
 
-            case R.id.img_close:
+            /*case R.id.img_close:
                 if (require_update)
                     return;
                 layout_dialog.setVisibility(View.GONE);
-                break;
+                break;*/
 
             default:
                 break;
         }
     }
 
-    public void showUpdate() {
+    /*public void showUpdate() {
         String content = "";
         String title = "";
 
@@ -253,24 +255,29 @@ public class MenuActivity extends BaseActivity implements IUpdateNewVersion {
 
         img_close.setOnTouchListener(new OnTouchClickListener(this, getApplicationContext()));
         layout_dialog.setVisibility(View.VISIBLE);
-    }
+    }*/
 
     @Override
     public void onBackPressed() {
         Log.i("onKeyBack", "onKeyBack()");
-        if (findViewById(R.id.layout_dialog).getVisibility() == View.VISIBLE) {
+        count++;
+        if (count >= 2)
+            finish();
+        else
+            ToastUtil.shortToast(getApplicationContext(), "Press again to exit");
+        /*if (findViewById(R.id.layout_dialog).getVisibility() == View.VISIBLE) {
             if (require_update)
                 return;
             findViewById(R.id.layout_dialog).setVisibility(View.GONE);
             return;
         }
 
-        AdsHandler.getInstance().showCofirmDialog(MenuActivity.this);
+        AdsHandler.getInstance().showCofirmDialog(MenuActivity.this);*/
     }
 
     @Override
     public void onGetConfig(boolean require_update) {
-        this.require_update = require_update;
-        showUpdate();
+        /*this.require_update = require_update;
+        showUpdate();*/
     }
 }

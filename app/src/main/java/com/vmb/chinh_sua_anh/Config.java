@@ -1,6 +1,6 @@
 package com.vmb.chinh_sua_anh;
 
-import com.vm.TextOnPhoto.PhotoEditor.BuildConfig;
+import com.quangda280296.photoeditor.BuildConfig;
 
 public class Config {
 

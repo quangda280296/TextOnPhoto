@@ -6,7 +6,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.Config;
 import com.vmb.chinh_sua_anh.adapter.ChoosePackageDetailAdapter;
 import com.vmb.chinh_sua_anh.base.fragment.BaseFragment_v4;

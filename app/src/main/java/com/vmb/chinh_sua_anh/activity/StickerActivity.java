@@ -23,7 +23,7 @@ import com.vmb.chinh_sua_anh.handler.PhotoHandler;
 import com.vmb.ads_in_app.util.NetworkUtil;
 import com.vmb.ads_in_app.util.RetrofitInitiator;
 import com.vmb.chinh_sua_anh.utils.Utils;
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

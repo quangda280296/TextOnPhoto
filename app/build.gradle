@@ -22,11 +22,11 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.vm.TextOnPhoto.PhotoEditor"
+        applicationId "com.quangda280296.photoeditor"
         minSdkVersion 16
-        targetSdkVersion 26
-        versionCode 37
-        versionName "3.7"
+        targetSdkVersion 28
+        versionCode 12
+        versionName "1.2"
         multiDexEnabled true
         ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -66,7 +66,6 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation project(':ads')
     implementation project(':library')
     implementation project(':sticker')
 

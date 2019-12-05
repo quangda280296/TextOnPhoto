@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.vm.TextOnPhoto.PhotoEditor.R;
+import com.quangda280296.photoeditor.R;
 import com.vmb.chinh_sua_anh.handler.PhotoHandler;
 import com.vmb.chinh_sua_anh.utils.FragmentUtil;
 import com.vmb.chinh_sua_anh.utils.Utils;
