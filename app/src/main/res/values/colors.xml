@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_lv_1">#f0f0f0</color>
+    <color name="white_lv_2">#ffeeee</color>
+    <color name="white_lv_3">#dedede</color>
+    <color name="white_lv_4">#EFEFEF</color>
+
+    <color name="gray">#e3e3e3</color>
+    <color name="gray_lv_1">#d5d5d5</color>
+    <color name="gray_lv_2">#a1a1a1</color>
+    <color name="gray_lv_3">#7d7c7c</color>
+    <color name="gray_lv_4">#717171</color>
+    <color name="gray_lv_5">#676e67</color>
+    <color name="gray_lv_6">#5a583f</color>
+    <color name="gray_lv_7">#C8C8C8</color>
+
+    <color name="black">#000000</color>
+    <color name="black_lv_1">#121e28</color>
+    <color name="black_lv_2">#181b22</color>
+
+    <color name="blue">#6dcff6</color>
+    <color name="blue_lv_1">#2592c9</color>
+    <color name="blue_lv_2">#1179cc</color>
+    <color name="blue_lv_3">#0066FF</color>
+    <color name="blue_lv_4">#1f4094</color>
+    <color name="blue_lv_5">#103746</color>
+
+    <color name="purple">#990099</color>
+    <color name="purple_lv_1">#eb1beb</color>
+    <color name="purple_lv_2">#ce7cd0</color>
+    <color name="purple_lv_3">#9784f7</color>
+    <color name="purple_lv_4">#8b5b8d</color>
+
+    <color name="pink">#f7cfd0</color>
+    <color name="pink_lv_1">#ffeded</color>
+    <color name="pink_lv_2">#f6dcdd</color>
+
+    <!--Choose Color-->
+    <color name="choose_color_blue">#3366CC</color>
+    <color name="choose_color_red">#FF0000</color>
+    <color name="choose_color_yellow">#FFFF00</color>
+
+    <color name="color_background_default_textStatus">#ff000000</color>
+    <color name="bg_btn_style">#ff9784f7</color>
+
+    <!--Color picker-->
+    <color name="color_picker_1">#662aff</color>
+    <color name="color_picker_2">#9b75fb</color>
+    <color name="color_picker_3">#c9b0fc</color>
+    <color name="color_picker_4">#ff9df0</color>
+    <color name="color_picker_5">#ff00fc</color>
+    <color name="color_picker_6">#cc00ff</color>
+    <color name="color_picker_7">#ff0000</color>
+    <color name="color_picker_8">#ffc6c6</color>
+    <color name="color_picker_9">#000000</color>
+    <color name="color_picker_10">#5f5f5f</color>
+    <color name="color_picker_11">#b1b1b1</color>
+    <color name="color_picker_12">#ffffff</color>
+
+    <!--Setting screen-->
+    <color name="text_title_sticker">#ff30334e</color>
+
+    <!--Raing Layout-->
+    <color name="rating_layout_background_color">#6EB5DF</color>
+
+    <!--Watch Ads -->
+    <color name="bkg_button_watch_ad">#ff9780fa</color>
+    <color name="bkg_button_watch_ad_press">#ffffbe76</color>
+</resources>

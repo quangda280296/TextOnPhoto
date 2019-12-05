@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/tabStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5.0dip"
+                    android:paddingTop="3.0dip"
+                    android:paddingRight="5.0dip"
+                    android:paddingBottom="3.0dip">
+
+                    <TextView
+                        android:id="@+id/btnClearStyles"
+                        android:layout_width="60.0dip"
+                        android:layout_height="40.0dip"
+                        android:layout_margin="2.0dip"
+                        android:background="@drawable/bg_button"
+                        android:gravity="center"
+                        android:padding="5.0dip"
+                        android:text="@string/text_style_clear"
+                        android:textColor="#ff9784f7"
+                        android:textSize="10.0sp" />
+
+                    <TextView
+                        android:id="@+id/btnRandomStyles"
+                        android:layout_width="60.0dip"
+                        android:layout_height="40.0dip"
+                        android:layout_margin="2.0dip"
+                        android:background="@drawable/bg_button"
+                        android:gravity="center"
+                        android:padding="5.0dip"
+                        android:text="@string/text_style_random"
+                        android:textColor="#ff9784f7"
+                        android:textSize="10.0sp" />
+
+                    <TextView
+                        android:layout_width="2.0px"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:layout_marginBottom="5.0dip"
+                        android:background="#ff353535" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/layoutListStyles"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3.0dip"
+                        android:clipToPadding="false"
+                        android:padding="@dimen/no_space" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2.0px"
+                    android:background="#ff353535" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5.0dip"
+                    android:paddingBottom="5.0dip"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3.0dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:padding="3.0dip"
+                        android:text="@string/text_style_stroke"
+                        android:textColor="#ffffffff"
+                        android:textSize="12.0sp" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:paddingTop="2.0dip">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#ff353535"
+                                android:padding="2.0dip">
+
+                                <TextView
+                                    android:id="@+id/btnColorStrokeStyle"
+                                    android:layout_width="60.0dip"
+                                    android:layout_height="28.0dip"
+                                    android:background="#ffcccccc"
+                                    android:gravity="center"
+                                    android:padding="3.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6" />
+
+                            <nl.dionsegijn.steppertouch.StepperTouch
+                                android:id="@+id/btn_touch_stroke"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2.0px"
+                    android:background="#ff353535" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5.0dip"
+                    android:paddingBottom="5.0dip"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3.0dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:padding="3.0dip"
+                        android:text="@string/text_style_shadow"
+                        android:textColor="#ffffffff"
+                        android:textSize="12.0sp" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:paddingTop="2.0dip">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#ff353535"
+                                android:padding="2.0dip">
+
+                                <TextView
+                                    android:id="@+id/btnColorShadowStyle"
+                                    android:layout_width="60.0dip"
+                                    android:layout_height="28.0dip"
+                                    android:background="#ffcccccc"
+                                    android:gravity="center"
+                                    android:padding="3.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6" />
+
+                            <nl.dionsegijn.steppertouch.StepperTouch
+                                android:id="@+id/btn_touch_shadow"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2.0px"
+                    android:background="#ff353535" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginLeft="3.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginRight="3.0dip"
+                    android:layout_marginBottom="3.0dip"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/btnNormalStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="25.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_margin="2.0dip"
+                            android:background="@drawable/icon_normal"
+                            android:padding="3.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btnBoldStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="25.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_margin="2.0dip"
+                            android:background="@drawable/icon_bold"
+                            android:padding="3.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btnItalicStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="25.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_margin="2.0dip"
+                            android:background="@drawable/icon_italic"
+                            android:padding="3.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btnUnderlineStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="25.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_margin="2.0dip"
+                            android:background="@drawable/icon_underline"
+                            android:padding="3.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btnStrikeStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1.0dip"
+                        android:layout_weight="1.0"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="25.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_margin="2.0dip"
+                            android:background="@drawable/icon_strike"
+                            android:padding="3.0dip" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="2.0px"
+                        android:layout_height="match_parent"
+                        android:background="#ff353535" />
+
+                    <LinearLayout
+                        android:id="@+id/align"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btnGravityLeft"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="25.0dip"
+                                android:layout_height="20.0dip"
+                                android:layout_margin="3.0dip"
+                                android:background="@drawable/icon_gravity_left"
+                                android:padding="3.0dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btnGravityCenter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="25.0dip"
+                                android:layout_height="20.0dip"
+                                android:layout_margin="3.0dip"
+                                android:background="@drawable/icon_gravity_center"
+                                android:padding="3.0dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btnGravityRight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="25.0dip"
+                                android:layout_height="20.0dip"
+                                android:layout_margin="3.0dip"
+                                android:background="@drawable/icon_gravity_right"
+                                android:padding="3.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

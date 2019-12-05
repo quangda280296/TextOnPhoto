@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "707563448769",
+    "firebase_url": "https://textonphoto-9769e.firebaseio.com",
+    "project_id": "textonphoto-9769e",
+    "storage_bucket": "textonphoto-9769e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707563448769:android:a8603ac9ce72c6d0",
+        "android_client_info": {
+          "package_name": "com.vm.TextOnPhoto.PhotoEditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707563448769-5cbono15ooa7crbg30i6qs2jab43la1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPgFh6TRw0fpTurMR2-v1Et-7djYOM4g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707563448769-5cbono15ooa7crbg30i6qs2jab43la1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

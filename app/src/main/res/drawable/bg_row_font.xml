@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">   <!-- Trạng thái khi nút click -->
+        <shape>
+            <solid android:color="@color/gray_lv_6" />   <!-- Màu nền -->
+        </shape>
+    </item>
+
+    <item>            <!-- Trạng thái bình thường khi không click -->
+        <shape>
+            <solid android:color="@android:color/transparent" />   <!-- Màu nền -->
+        </shape>
+    </item>
+</selector>
