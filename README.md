@@ -3,7 +3,8 @@
 ## Description
 Ứng dụng tiện ích cho phép viết chữ lên ảnh và chỉnh sửa ảnh với nhiều tính năng: bộ lọc, cắt ảnh, tạo khung,... giúp tạo ra những bức ảnh đẹp để đăng lên facebook, instagram, twitter...
 
-## Link Google Play: 
+## Link app: 
+https://drive.google.com/open?id=1tNbeqzbGoBtxjVTJj2cIC9BC598pq3iX
 
 ## Screenshots
 ![]
