@@ -4,7 +4,7 @@
 Ứng dụng tiện ích cho phép viết chữ lên ảnh và chỉnh sửa ảnh với nhiều tính năng: bộ lọc, cắt ảnh, tạo khung,... giúp tạo ra những bức ảnh đẹp để đăng lên facebook, instagram, twitter...
 
 ## Link app: 
-https://drive.google.com/open?id=1tNbeqzbGoBtxjVTJj2cIC9BC598pq3iX
+[Demo](https://github.com/quangda280296/TextOnPhoto/blob/master/app/release/app-release.apk) 
 
 ## Screenshots
 ![]
