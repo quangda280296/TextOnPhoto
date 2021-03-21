@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="sticker_size">256</integer>
-    <integer name="bitmap_handler_size">1024</integer>
-    <integer name="size_border_default_textStatus">0</integer>
-    <integer name="radius_default_textStatus">10</integer>
-    <integer name="alpha_default_textStatus">0</integer>
-    <integer name="padding_default_textStatus">20</integer>
-</resources>
